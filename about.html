@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About the Study — Detoxa</title>
+<meta name="description" content="Methodology, sample, and limitations behind the Detoxa research study on social media dependency and quit attempts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .prose { max-width: 700px; }
+  .prose p { margin-bottom: 16px; font-size: 16px; }
+  .prose h3 { margin-top: 40px; margin-bottom: 14px; }
+  .method-list { list-style: none; padding: 0; margin: 20px 0; }
+  .method-list li {
+    padding: 14px 0; border-bottom: 1px solid var(--line);
+    display: flex; justify-content: space-between; gap: 20px; font-size: 14.5px;
+  }
+  .method-list li span:first-child { color: var(--gray); }
+  .method-list li span:last-child { color: var(--ink); font-weight: 500; text-align: right; }
+  .limit-card { border-left: 2px solid var(--gold); padding-left:18px; margin-bottom:20px; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav__inner">
+    <a href="index.html" class="nav__brand">Detoxa<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="data.html">The Data</a>
+      <a href="quiz.html">Take the Quiz</a>
+      <a href="about.html" class="active">About the Study</a>
+    </div>
+    <a href="quiz.html" class="nav__cta">Check your score →</a>
+    <button class="nav__toggle">Menu</button>
+  </div>
+  <div class="nav__mobile">
+    <a href="index.html">Home</a>
+    <a href="data.html">The Data</a>
+    <a href="quiz.html">Take the Quiz</a>
+    <a href="about.html" class="active">About the Study</a>
+  </div>
+</nav>
+
+<header class="section section--tight" style="padding-bottom:40px;">
+  <div class="wrap">
+    <p class="eyebrow">Methodology &amp; scope</p>
+    <h1 style="font-size:clamp(34px,5vw,52px);">About this study</h1>
+    <p class="lede mt-16">Why we moved past "social media harms mental health" — and what we measured instead.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap prose">
+    <h3>The starting point</h3>
+    <p>This research began with a broader question — the effect of social media on mental health. That question
+    has been studied extensively, and the directional answer is well established: heavy, unmanaged use is
+    associated with anxiety, comparison, distraction, and sleep disruption. Re-confirming that finding alone
+    wouldn't add much.</p>
+    <p>So the focus shifted to a narrower, less-studied question: <strong>given that most people already sense
+    social media is affecting them, how many actually try to do something about it — and how many succeed?</strong>
+    That's the question this dataset and site are built to answer.</p>
+
+    <h3>Sample &amp; collection</h3>
+    <ul class="method-list">
+      <li><span>Total responses collected</span><span>277</span></li>
+      <li><span>Respondent type</span><span>Students (primary), faculty, support staff, working professionals</span></li>
+      <li><span>Collection method</span><span>Real-time structured survey, self-reported</span></li>
+      <li><span>Survey length</span><span>25 questions covering demographics, usage patterns, and dependency indicators</span></li>
+      <li><span>Gender split</span><span>185 male · 92 female</span></li>
+      <li><span>Occupation split</span><span>229 students · 16 private sector · 14 other · 8 business · 8 teachers · 2 government</span></li>
+    </ul>
+
+    <h3>What we measured</h3>
+    <p>The survey instrument captured three layers, in this order:</p>
+    <p><strong>1. Usage patterns</strong> — platform preference, daily hours, time loss while scrolling, purposeless use.</p>
+    <p><strong>2. Psychological indicators</strong> — distractibility, concentration difficulty, social comparison,
+    sleep disruption, mood, restlessness without access, appearance-related comparison, and concealment of usage
+    (a known proxy for problematic use in behavioral-addiction research).</p>
+    <p><strong>3. Awareness and action</strong> — whether respondents believe social media has jeopardized their
+    studies, finances, relationships, or career; whether they've tried to quit or reduce use; how often; and, in
+    their own words, what they actually did.</p>
+
+    <h3>Data cleaning</h3>
+    <p>Survey data — especially from open text fields and an anonymous, low-stakes form — always contains noise.
+    We applied two corrections, both disclosed rather than silently absorbed:</p>
+    <p><strong>Age:</strong> 56 of 277 responses had implausible ages (clustering at a value inconsistent with a
+    student/professional sample) and were excluded from age-specific statistics only — they remain in every other
+    metric.</p>
+    <p><strong>Free-text "measures taken":</strong> of 205 responses to "what did you do to quit," 50 were
+    unusable (single letters, jokes, "n/a") and were excluded. The remaining 155 were grouped into six categories
+    by keyword matching, reviewed for sense.</p>
+
+    <h3>Limitations</h3>
+    <div class="limit-card">
+      <p><strong>Self-report bias.</strong> Usage hours, symptoms, and quit attempts are all self-estimated, not
+      device-tracked. People tend to underestimate screen time and may over- or under-report quit attempts
+      depending on social desirability.</p>
+    </div>
+    <div class="limit-card">
+      <p><strong>Sample skew.</strong> The sample is heavily student-weighted (83%) and India-based, so findings
+      should be read as representative of that population, not a general claim about all social media users.</p>
+    </div>
+    <div class="limit-card">
+      <p><strong>Sparse symptom data.</strong> Only 59 of 277 respondents answered the symptom question. That
+      breakdown (anxiety, depression, ADHD, other) is presented as a share of respondents who answered, not the
+      full sample, and should be treated as suggestive rather than conclusive.</p>
+    </div>
+    <div class="limit-card">
+      <p><strong>Correlation, not causation.</strong> The relationship between awareness and action (people who
+      feel jeopardized are somewhat more likely to try quitting) is associative. The survey design can't establish
+      that one causes the other.</p>
+    </div>
+
+    <h3>How to cite</h3>
+    <p style="font-family:var(--mono); font-size:13.5px; background:var(--paper-dim); padding:18px; border-radius:var(--radius); color:var(--ink-soft);">
+      Detoxa Research Study (2026). Social Media Dependency and Quit-Attempt Consistency: A Survey of 277
+      Students and Professionals. Self-published research dataset and visualization platform.
+    </p>
+  </div>
+</section>
+
+<section class="section section--dim text-center">
+  <div class="wrap" style="max-width:600px; margin:0 auto;">
+    <h2 class="fade-up">Curious where you'd land in this sample?</h2>
+    <a href="quiz.html" class="btn btn--clay mt-32 fade-up" style="display:inline-flex;">Take the self-assessment →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>
+      <div class="footer__brand">Detoxa<span style="color:var(--clay);">.</span></div>
+      <p class="footer__note">An independent research project on social media dependency and digital
+      self-regulation. Not a diagnostic or clinical tool.</p>
+    </div>
+    <div class="footer__links">
+      <a href="index.html">Home</a>
+      <a href="data.html">The Data</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+{
+  "sample_size_raw": 277,
+  "sample_size_age_clean": 221,
+  "n_age_excluded": 56,
+  "jeopardized": {
+    "yes": 140,
+    "no": 69,
+    "maybe": 67,
+    "unknown": 1,
+    "pct_yes": 50.5,
+    "pct_maybe_or_yes": 74.7
+  },
+  "tried_quit": {
+    "yes": 166,
+    "no": 109,
+    "valid_n": 275,
+    "pct_yes": 60.4
+  },
+  "quit_attempt_freq": {
+    "order": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "counts": {
+      "Never": 46,
+      "Rarely": 45,
+      "Sometimes": 93,
+      "Often": 45,
+      "Always": 40
+    },
+    "pct": {
+      "Never": 17.1,
+      "Rarely": 16.7,
+      "Sometimes": 34.6,
+      "Often": 16.7,
+      "Always": 14.9
+    },
+    "valid_n": 269
+  },
+  "quit_consistency_groups": {
+    "consistent": 85,
+    "inconsistent": 138,
+    "never": 46,
+    "pct_consistent": 31.6,
+    "pct_inconsistent": 51.3,
+    "pct_never": 17.1
+  },
+  "measures": {
+    "categories": {
+      "Other genuine attempt": 93,
+      "Deleted / uninstalled apps": 28,
+      "Replaced with other activities": 12,
+      "App time limits / screen-time tools": 9,
+      "Sought support / talked to someone": 8,
+      "Digital detox / no-phone periods": 5
+    },
+    "n_total_responses": 205,
+    "n_junk_excluded": 50,
+    "n_valid": 155
+  },
+  "symptoms": {
+    "counts": {
+      "Anxiety": 28,
+      "Depression": 18,
+      "Other": 7,
+      "ADHD": 6
+    },
+    "n_respondents": 59,
+    "n_total": 277,
+    "pct_of_respondents": {
+      "Anxiety": 47.5,
+      "Depression": 30.5,
+      "Other": 11.9,
+      "ADHD": 10.2
+    }
+  },
+  "demographics": {
+    "gender": {
+      "Male": 185,
+      "Female": 92
+    },
+    "relationship": {
+      "Single": 222,
+      "In a relationship": 44,
+      "Married": 11
+    },
+    "occupation": {
+      "Student": 229,
+      "Private Sector": 16,
+      "Other": 14,
+      "Bussiness": 8,
+      "Teacher": 8,
+      "Government Employee": 2
+    },
+    "age_mean_cleaned": 21.4,
+    "age_median_cleaned": 20.0,
+    "age_min_cleaned": 20,
+    "age_max_cleaned": 35
+  },
+  "platform": {
+    "Instagram": 135,
+    "Youtube": 62,
+    "Whatsapp": 62,
+    "Snapchat": 12,
+    "Facebook": 6
+  },
+  "sm_hours_bucket": {
+    "1 to 3 hour": 149,
+    "3 to 5 hour": 65,
+    "Less than an hour": 32,
+    "more than 5 hour": 31
+  },
+  "scale_means": {
+    "distractibility": 2.98,
+    "concentration_difficulty": 2.83,
+    "social_comparison": 2.76,
+    "sleep_issues": 2.7
+  },
+  "freq_distributions": {
+    "time_loss_freq": {
+      "counts": {
+        "Sometimes": 102,
+        "Often": 61,
+        "Always": 53,
+        "Rarely": 43,
+        "Never": 17,
+        "nan": 1
+      },
+      "valid_n": 276
+    },
+    "purposeless_use_freq": {
+      "counts": {
+        "Often": 94,
+        "Sometimes": 86,
+        "Always": 56,
+        "Rarely": 31,
+        "Never": 10
+      },
+      "valid_n": 277
+    },
+    "depressed_freq": {
+      "counts": {
+        "Sometimes": 121,
+        "Rarely": 58,
+        "Often": 38,
+        "Always": 33,
+        "Never": 27
+      },
+      "valid_n": 277
+    },
+    "appearance_impact": {
+      "counts": {
+        "Never": 90,
+        "Sometimes": 75,
+        "Rarely": 60,
+        "Often": 29,
+        "Always": 22,
+        "Unknown": 1
+      },
+      "valid_n": 277
+    }
+  },
+  "restless": {
+    "No": 138,
+    "Maybe": 77,
+    "Yes": 62
+  },
+  "hides_usage": {
+    "Neutral": 107,
+    "Disagree": 68,
+    "Strongly disagree": 48,
+    "Agree": 42,
+    "Strongly agree": 11,
+    "Unknown": 1
+  },
+  "awareness_vs_action": {
+    "No": {
+      "Maybe": 28,
+      "No": 35,
+      "Yes": 46
+    },
+    "Yes": {
+      "Maybe": 39,
+      "No": 34,
+      "Yes": 93
+    }
+  }
+}
